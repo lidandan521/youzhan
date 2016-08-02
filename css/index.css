@@ -1,0 +1,201 @@
+body,ul,ol,li,h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin:0;
+	list-style: none;
+
+}
+body{
+	height: 100%;
+	font-family:  "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+	font-size: 10px;
+
+}
+#bg{
+	background: #f2f2f2;
+}
+
+/* banner */
+.banner{
+	background-image: url(../img/1.jpg); 
+	background-size:cover;
+	background-position: center 0;
+	min-height: 400px;
+	text-align: center;
+	 padding-top:138px;
+	 position: relative;
+	 width: 100%;
+}
+.banner-title{
+    width: 100%;
+    margin:0 auto;
+}
+.banner-title h1{
+    line-height: 1.1;
+}
+.banner-title h1 a{
+	font-size: 64px;
+	font-weight: 700;
+	color: white;
+}
+.banner-title h2{
+	font-size: 33px;
+	color: white;
+	margin: 0 0 45px;
+	line-height: 1.1;
+	padding-top:20px;
+}
+.logoimg{
+	width: 100%;
+	position: absolute;
+    left: center;
+    bottom: -34px;
+}
+.logoimg img{
+    width: 78px;
+}
+
+/*body*/
+.body{
+	margin-top: 90px;
+}
+.post{
+	background: #fff;
+	box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+}
+.post a{
+	display: block;
+	padding:12px;
+
+}
+#imgbox{
+	padding: 0 15px;
+
+}
+#imgbox img{
+    width: 100%;
+}
+#imgbox h2{
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+#imgbox h2 a{
+	padding: 0;
+	display: block;
+	font-size: 24px;
+	color:#777;
+}
+#imgbox h2 a:hover{
+	color: #333;
+}
+
+
+/*页码*/
+
+.pagination{
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+#next{
+	display: block;
+	float: right;
+	border: 1px solid #39414a;
+	border-radius: 3px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    color: #39414a;
+    text-decoration: none;
+}
+#next:hover{
+	color: #fff;
+	background: #39414a;
+}
+#aside{
+	padding: 40px 0;
+	margin-top: 20px;
+}
+#aside p{
+    text-align: center;
+}
+
+
+/*底部*/
+
+.my-footer{
+	padding-top: 35px;
+	background: #202020;
+	color: #959595;
+}
+.widget{
+	padding:  0 30px;
+	margin-bottom: 35px;
+}
+#title{
+	margin:0;
+	padding: 0;
+	color: #fff;
+	border-bottom: 1px solid #303030;
+	padding-bottom: 7px;
+	margin-bottom: 21px;
+	position: relative;
+}
+#title:after{
+	content:" ";
+	width: 90px;
+	height:1px;
+	background: #337ab7;
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+}
+.friend-url a{
+    color: #959595;
+    display: block;
+    width: 100%;
+    border-bottom: 1px dashed #303030;
+    line-height: center;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    text-decoration: none;
+}
+.friend-url a:hover{
+	color: #fff;
+    text-decoration: none;
+}
+.friend-teg a{
+	color: #959595;
+    display: inline-block;
+    border: 1px solid #303030;
+    padding:2px 7px;
+    margin: 0 7px 7px 0;
+}
+.friend-teg a:hover{
+	text-decoration: none;
+	color: #fff;
+	border-color: #337ad7;
+	background: #337ad7;
+}
+
+
+/*copyright*/
+.copyright{
+	background: #111;
+	padding: 14px 0 20px 0;
+	text-align: center;
+}
+.cp-text,.cp-text a{
+    color: #555;
+    font-size: 13px;
+}
+.cp-text a:hover{
+	color: #555;
+}
+/*@*/
+@media(){
+
+}
